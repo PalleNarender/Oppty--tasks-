@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #d71212ff;
+    background-color: rgb(26, 127, 181);
     padding: 20px;
 }
 
@@ -17,7 +17,7 @@ div {
 
 table {
     width: 60%;
-    color : #8e2828ff;
+    color : rgb(187, 145, 145);
     margin-top: 10px;
 }
 

@@ -1,0 +1,33 @@
+body{
+       background-color: rgb(109, 63, 14);
+ 
+}
+
+header{
+    background-color: rgb(14, 65, 109);
+    color:rgb(25, 28, 28);
+    padding: 20px;
+    text-align: center;
+    border-radius: 150px;
+    
+}
+
+section{
+    background-color: rgb(198, 220, 240);
+    padding:20px;
+    margin-top: 20px;
+    border-radius: 80px;
+
+}
+
+div{
+    background-color: rgb(208, 203, 203);
+    padding:15px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 15px;
+}
+p{
+    background-color: aliceblue;
+    padding: 9px;
+    border-radius: 8px;
+}
