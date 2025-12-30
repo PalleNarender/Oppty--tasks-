@@ -1,40 +1,88 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: rgb(236, 177, 50);
-    padding: 20px;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(120deg, #1f4037, #99f2c8);
 }
 
-h1, h2, h3, h4 {
-    color: #535e68ff;
+.hero {
+  height: 60vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 
-figure img {
-    width: 80px;     
-    height: 80px;
-    border-radius: 50%;
-    object-fit: cover;
+.overlay {
+  text-align: center;
+}
+
+
+.menu {
+  position: sticky;
+  top: 0;
+  background: #111;
+  text-align: center;
+  padding: 12px;
+}
+
+.menu a {
+  color: white;
+  margin: 10px;
+}
+
+.card {
+  width: 80%;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.glass {
+  background: rgba(238, 10, 10, 0.2);
+  color: white;
+}
+
+.gradient1 {
+  background: linear-gradient(120deg, #ff9a9e, #fad0c4);
+}
+
+.gradient2 {
+  background: linear-gradient(120deg, #a1c4fd, #c2e9fb);
+}
+
+.gradient3 {
+  background: linear-gradient(120deg, #fbc2eb, #a6c1ee);
+}
+
+.gradient4 {
+  background: linear-gradient(120deg, #84fab0, #8fd3f4);
+}
+
+.skill-box span {
+  background: #00000055;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+  margin: 5px;
+  display: inline-block;
 }
 
 table {
-    width: 60%;
-    color : #8e2828ff;
-    margin-top: 10px;
+  width: 100%;
+  border-collapse: collapse;
 }
 
-th, td {
-    padding: 10px;
-    border: 1px solid black;
-    text-align: left;
+th,
+td {
+  padding: 10px;
+  border: 1px solid white;
+  text-align: center;
 }
 
-img {
-    margin: 10px 0;
+footer {
+  background: #000;
+  color: white;
+  text-align: center;
+  padding: 15px;
 }
-p{
-    font-size: 16px;
-    line-height: 1.5;
-    color: #555;
-}
-/* .highlight {
-    background-color: #ffff99;
-}    */
