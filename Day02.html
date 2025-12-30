@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Basic Structure</title>
+</head>
+
+<body>
+    <!-- headings -->
+    <h1>Main Heading of the Page</h1>
+    <h2>Sub Heading Level 2</h2>
+    <h3>Sub Heading Level 3</h3>
+    <h4 id="section2">Sub Heading Level 4(Linked Section Below)</h4>
+    <!-- Paragraph -->
+     <p>
+        This is the first paragraph with <b>bold</b>,<i>italic</i>,<u>underline</u>,<strong>strong importance</strong>,
+        <em>emphasis</em>,<mark>highlighted text</mark>,<small>smaller text</small>,chemical formula likeH<sub>2</sub>,
+        and<del>deleted text</del>
+     </p>
+     <p>
+        This is the second paragraph.We will also include two types of links:
+        <a href="https://www.google.com" target="_blank">External Link (Opens in new tab)</a>|
+        <a href="#section2">Internal Link(Scroll to Heading h4)</a>
+     </p>
+      <!-- Images -->
+    <!-- Clickable image -->
+
+    <!-- Lists -->
+    <h2>Lists</h2>
+
+    <h3>Unordered List</h3>
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Orange</li>
+    </ul>
+
+    <h3>Ordered List</h3>
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <h3>Nested List</h3>
+    <ul>
+        <li>Fruits
+            <ol>
+                <li>Mango</li>
+                <li>Pineapple</li>
+            </ol>
+        </li>
+        <li>Vegetables</li>
+    </ul>
+
+    <!-- Table -->
+    <h2>Table Example</h2>
+    <table border="1" cellpadding="8">
+        <thead>
+            <tr>
+                <th colspan="2">Student Marks</th>
+                <th rowspan="2">Total</th>
+            </tr>
+            <tr>
+                <th>Subject</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr><td>Maths</td><td>85</td><td rowspan="4">340</td></tr>
+            <tr><td>Science</td><td>90</td></tr>
+            <tr><td>English</td><td>80</td></tr>
+            <tr><td>Social</td><td>85</td></tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="3" align="center">End of Result Table</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
+
+===========================================================================
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazing SmartWatch X</title>
+</head>
+<body>
+    <h1>Amazing SmartWatch X</h1>
+    <p>The <strong>Amazing SmartWatch X</strong> is a next-generation wearable device designed to keep you
+    fit, active, and connected. It comes with powerful tracking sensors, elegant design, and long battery life.</p>
+
+    <p>This smartwatch supports <em>heart-rate monitoring</em> <mark>water resistance</mark>, and even an optional
+    wireless charging dock. A previous model is now <del>discontinued</del>, making this updated version the best choice for users. Battery lasts up to 7 
+days<sub>*</sub>, and supports low-power mode<sup>1</sup>.</p>
+
+<!-- Product Images -->
+    <h2>Product Images</h2>
+    <img src="smartwatch_front.jpg" alt="SmartWatch X front view" width="250">
+
+    <a href="smartwatch_fullview.jpg" target="_blank">
+        <img src="smartwatch_closeup.jpg" alt="Detailed close-up of the SmartWatch X" width="250">
+    </a>
+
+<!-- Unordered List: Product Features -->
+    <h2>Key Features</h2>
+    <ul>
+        <li>Fitness tracking & health monitoring</li>
+        <li>Wireless charging support</li>
+        <li>Lightweight and premium metal casing</li>
+        <li>Waterproof up to 50 meters</li>
+        <li>Smart notifications + mobile app sync</li>
+    </ul>
+
+
+    <!-- Ordered List: Steps to Use -->
+    <h2>How to Use</h2>
+    <ol>
+        <li>Unbox and power on the device.</li>
+        <li>Pair it with your smartphone using Bluetooth.</li>
+        <li>Customize watch-face and notifications.</li>
+        <li>Wear and start tracking fitness & activities.</li>
+    </ol>
+
+
+    <!-- Nested List: Product Categories -->
+    <h2>Product Categories</h2>
+    <ul>
+        <li>Electronics
+            <ul>
+                <li>Mobile</li>
+                <li>Laptop</li>
+            </ul>
+        </li>
+        <li>Wearables
+            <ul>
+                <li>Smartwatches</li>
+                <li>Fitness Bands</li>
+            </ul>
+        </li>
+    </ul>
+
+
+    <!-- Product Table -->
+    <h2>Product Pricing & Rating</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Price</th>
+                <th>Rating</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="5">SmartWatch X</td>
+                <td>$199</td>
+                <td>4.7/5</td>
+            </tr>
+            <tr>
+                <td colspan="5">Discount Available During Festival Sale</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="3">*Battery backup depends on usage</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
