@@ -44,11 +44,11 @@ body {
 }
 
 .gradient1 {
-  background: linear-gradient(120deg, #ff9a9e, #fad0c4);
+  background: linear-gradient(120deg, #833e40, #fad0c4);
 }
 
 .gradient2 {
-  background: linear-gradient(120deg, #a1c4fd, #c2e9fb);
+  background: linear-gradient(120deg, #33445f, #c2e9fb);
 }
 
 .gradient3 {
@@ -60,12 +60,11 @@ body {
 }
 
 .skill-box span {
-  background: #00000055;
+  background: #aad41255;
   color: white;
   padding: 8px 15px;
   border-radius: 20px;
   margin: 5px;
-  display: inline-block;
 }
 
 table {
