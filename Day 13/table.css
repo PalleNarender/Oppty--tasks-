@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #82dfdf;
+    background: #90d8d8;
 }
 
 header {
@@ -11,9 +11,9 @@ header {
     text-align: center;
 }
 
-main {
+/* main {
     padding: 20px;
-}
+} */
 
 section {
     display: flex;
@@ -22,7 +22,7 @@ section {
 
 article {
     width: 85%;
-    background: rgb(215, 203, 70);
+    background: rgb(160, 148, 8);
     padding: 20px;
     border-radius: 6px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
