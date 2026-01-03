@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My HTML Portfolio</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+
+<body>
+
+    <header>
+        <h1><u>My HTML Portfolio</u></h1>
+        <hr>
+        <nav>
+            <a href="#"><u>Home</u></a>
+            <a href="#"><u>Features</u></a>
+            <a href="#"><u>Demo</u></a>
+            <a href="#"><u>Contact</u></a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <section>
+        <h2><u>About HTML</u></h2>
+        <p>HTML stands for <strong>HyperText Markup Language</strong>. It is the backbone of every website and is used
+            to structure content on the web. HTML describes the layout of a web page using a system of elements
+            such as headings, paragraphs, images, links, forms, tables, and multimedia.
+            HTML works together with <strong>CSS</strong> (Cascading Style Sheets) and <strong>JavaScript</strong> to
+            create
+            modern, interactive, and visually appealing web applications. While HTML defines the structure,
+            CSS controls the design, and JavaScript adds interactivity.</p>
+    </section>
+    <hr>
+    <section class="features">
+        <div>
+            <h2><u>Key Features of HTML</u></h2>
+            <ul>
+                <li><strong>Easy to Learn:</strong> HTML has simple syntax and is beginner-friendly.</li>
+                <li><strong>Platform Independent:</strong> Works on all browsers and operating systems.</li>
+                <li><strong>Semantic Structure:</strong> Tags like <code>&lt;header&gt;</code>,
+                    <code>&lt;article&gt;</code>, <code>&lt;footer&gt;</code> improve accessibility and SEO.
+                </li>
+                <li><strong>Supports Multimedia:</strong> Easily embed audio, video, images, and iframes.</li>
+                <li><strong>Form Handling:</strong> Create input forms for collecting user data.</li>
+                <li><strong>Hyperlinking:</strong> Allows linking between web pages using <code>&lt;a&gt;</code> tag.
+                </li>
+                <li><strong>Flexible Layout:</strong> Works with CSS to create responsive designs.</li>
+                <li><strong>Open Standard:</strong> Maintained by W3C and supported worldwide.</li>
+            </ul>
+        </div>
+
+        <figure>
+            <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8" alt="Laptop">
+            <figcaption>Laptop and coffee</figcaption>
+        </figure>
+    </section>
+    <hr>
+    <section class="topics">
+        <div>
+            <h2><u>HTML Topics Covered</u></h2>
+            <ol>
+                <li><strong>Headings & Sections:</strong> Using <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>,
+                    <code>&lt;section&gt;</code>, <code>&lt;article&gt;</code> to organize content.
+                </li>
+
+                <li><strong>Lists and Tables:</strong> Creating ordered, unordered lists and structured tables
+                    using <code>&lt;ul&gt;</code>, <code>&lt;ol&gt;</code>, <code>&lt;table&gt;</code>.</li>
+
+                <li><strong>Forms and Inputs:</strong> Collecting user data using
+                    <code>&lt;input&gt;</code>, <code>&lt;textarea&gt;</code>, <code>&lt;select&gt;</code>.
+                </li>
+
+                <li><strong>Links & Navigation:</strong> Connecting pages using
+                    <code>&lt;a&gt;</code> tags and navigation menus.
+                </li>
+
+                <li><strong>Media Embeds:</strong> Adding images, audio, videos, and YouTube iframes.</li>
+
+                <li><strong>Semantic Tags:</strong> Using meaningful elements like
+                    <code>&lt;header&gt;</code>, <code>&lt;footer&gt;</code>, <code>&lt;main&gt;</code>.
+                </li>
+
+                <li><strong>Accessibility Basics:</strong> Using alt attributes, labels, and proper structure.</li>
+            </ol>
+        </div>
+
+        <div>
+            <h3><u>Project Timeline</u></h3>
+            <table>
+                <tr>
+                    <th style="background-color: #ff9999;">Phase</th>
+                    <th style="background-color: #a84577;">Tasks</th>
+                    <th style="background-color: #c3d355;">Duration</th>
+                </tr>
+                <tr>
+                    <td style="background-color: #41b460;">Planning</td>
+                    <td style="background-color: #41b460;">Research & Outline</td>
+                    <td style="background-color: #41b460;">1 Week</td>
+                </tr>
+                <tr>
+                    <td style="background-color: #c3d355;">Development</td>
+                    <td style="background-color: #c3d355;">Coding Content</td>
+                    <td style="background-color: #5955d3;">2 Weeks</td>
+                </tr>
+                <tr>
+                    <td style="background-color: #5e2e39;">Review</td>
+                    <td style="background-color: #6e3b4f;">Testing & Fixes</td>
+                    <td style="background-color: #714046;">3 Days</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <hr>
+    <section>
+        <h2 style="color: #869a0a;"><u>Resources</u></h2>
+        <ul>
+            <li><a href="#">MDN Web Docs</a> - HTML Guide</li>
+            <li><a href="#">W3Schools</a> - HTML Tutorial</li>
+        </ul>
+    </section>
+    <section>
+        <h2><u>Demo Video</u></h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qz0aGYrrlhU" allowfullscreen></iframe>
+    </section>
+    <hr>
+    <section class="contact">
+        <h2><u>Contact Me</u></h2>
+        <form>
+            Name: <input type="text"><br><br>
+            Email: <input type="email"><br><br>
+            Message:<br>
+            <textarea rows="4"></textarea><br><br>
+
+            Subscribe to newsletter?:
+            <input type="radio">Yes
+            <input type="radio" name="sub">No<br><br>
+
+            Preferred Contact:
+            <input type="checkbox">Email
+            <input type="checkbox">Phone<br><br>
+
+            <button>Submit</button>
+        </form>
+    </section>
+    <hr>
+    <footer>
+        <p>© 2024 My HTML</p>
+    </footer>
+
+</body>
+
+</html>

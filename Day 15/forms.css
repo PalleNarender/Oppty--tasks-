@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(162, 195, 223);
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: blue;
+}
+
+.features, .topics {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.features img {
+    width: 150px;
+    border-radius: 6px;
+}
+
+figure {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 300px;
+}
+
+table, th, td {
+    border: 1px solid #2e1818;
+}
+
+th, td {
+    padding: 6px;
+    text-align: center;
+}
+
+iframe {
+    margin-top: 10px;
+}
+
+.contact input, textarea {
+    width: 300px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+}
